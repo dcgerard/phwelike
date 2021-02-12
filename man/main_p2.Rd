@@ -13,6 +13,11 @@ for individual \code{i}.}
 
 \item{oiter}{The number of EM iterations to run.}
 }
+\value{
+A vector of length 2. The first element is the
+estimated allele frequency, the second element is the
+estimated double reduction parameter.
+}
 \description{
 This uses all genotypes, as opposed to \code{\link{main_p3}()},
 which only uses homozygosity versus heterzygosity.

@@ -125,7 +125,7 @@ EMM_p2 <- function(ELL_p,nl){
 
 
 #' Estimate allele frequency and double reduction in tetraploids using
-#' all genotypes.
+#' just homozygosity versus heterozygosity.
 #'
 #' This uses just homozygosity versus heterozygosity, as opposed to
 #' \code{\link{main_p2}()}, which uses all genotypes.
@@ -134,6 +134,10 @@ EMM_p2 <- function(ELL_p,nl){
 #'     for individual \code{i}. This is coded weird, though. You should
 #'     set 0 = nullplex, 1 = heterozygous, 2 = quadriplex.
 #' @param oiter The number of EM iterations to run.
+#'
+#' @return A vector of length 2. The first element is the
+#'    estimated allele frequency, the second element is the
+#'    estimated double reduction parameter.
 #'
 #' @author Libo Jiang
 #'

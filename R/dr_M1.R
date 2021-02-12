@@ -162,6 +162,10 @@ main_p1 <- function(nm,oiter=10){
 #'     for individual \code{i}.
 #' @param oiter The number of EM iterations to run.
 #'
+#' @return A vector of length 2. The first element is the
+#'    estimated allele frequency, the second element is the
+#'    estimated double reduction parameter.
+#'
 #' @author Libo Jiang
 #'
 #' @examples

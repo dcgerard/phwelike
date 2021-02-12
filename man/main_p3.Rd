@@ -3,7 +3,7 @@
 \name{main_p3}
 \alias{main_p3}
 \title{Estimate allele frequency and double reduction in tetraploids using
-all genotypes.}
+just homozygosity versus heterozygosity.}
 \usage{
 main_p3(nm, oiter = 10)
 }
@@ -13,6 +13,11 @@ for individual \code{i}. This is coded weird, though. You should
 set 0 = nullplex, 1 = heterozygous, 2 = quadriplex.}
 
 \item{oiter}{The number of EM iterations to run.}
+}
+\value{
+A vector of length 2. The first element is the
+estimated allele frequency, the second element is the
+estimated double reduction parameter.
 }
 \description{
 This uses just homozygosity versus heterozygosity, as opposed to
