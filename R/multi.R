@@ -22,7 +22,7 @@ main_multi <- function(nmat) {
 
   outmat <- matrix(NA_real_, ncol = 2, nrow = nrow(nmat))
   colnames(outmat) <- c("r", "alpha")
-  for (i in seq_along(nrow(nmat))) {
+  for (i in seq_len(nrow(nmat))) {
     nvec <- nmat[i, ]
     nm <- unlist(mapply(x = 0:4, times = nvec, FUN = rep))
     outmat[i, ] <- main_p2(nm = nm)
