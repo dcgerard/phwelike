@@ -24,7 +24,8 @@ main_multi <- function(nmat) {
   colnames(outmat) <- c("r", "alpha")
   for (i in seq_len(nrow(nmat))) {
     nvec <- nmat[i, ]
-    nm <- unlist(mapply(x = 0:4, times = nvec, FUN = rep))
+    ## 4:0 because they code number of alternative, not reference, alleles
+    nm <- unlist(mapply(x = 4:0, times = nvec, FUN = rep))
     outmat[i, ] <- main_p2(nm = nm)
   }
   return(data.frame(outmat))
