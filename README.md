@@ -14,6 +14,7 @@ To see the original repo, go to
 
 The main functions are
 
+-   `main_multi()`: Fit `main_p2()` across many loci.
 -   `main_p2()`: Calculate maximum likelihood esimates of double
     reduction and allele frequency in tetraploids using *all* genotypes.
 -   `main_p3()`: Calculate maximum likelihood esimates of double
