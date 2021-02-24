@@ -2,7 +2,7 @@
 % Please edit documentation in R/multi.R
 \name{main_multi}
 \alias{main_multi}
-\title{Fit \code{\link{main_p2}()} across many SNPs}
+\title{Fit \code{\link{main_p2}()} across many SNPs.}
 \usage{
 main_multi(nmat)
 }
@@ -17,7 +17,22 @@ allele frequency, the second column contains the estimated double
 reduction parameter. The rows index the loci.
 }
 \description{
-Fit \code{\link{main_p2}()} across many SNPs
+Support is provided for parallelization through the future package.
+}
+\examples{
+## Fake data
+nmat <- matrix(c(1, 2, 3, 2, 1,
+                 3, 2, 1, 2, 3),
+               nrow = 2,
+               byrow = TRUE)
+
+## Run the analysis in parallel on the local computer with two workers
+future::plan(future::multisession, workers = 2)
+main_multi(nmat = nmat)
+
+## Shut down parallel workers
+future::plan("sequential")
+
 }
 \author{
 David Gerard
