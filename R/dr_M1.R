@@ -173,6 +173,12 @@ main_p1 <- function(nm,oiter=10){
 #' main_p2(nm = nm)
 #'
 #' @export
+#'
+#' @references
+#' \itemize{
+#'   \item{Jiang, Libo, Xiangyu Ren, and Rongling Wu. 2021. "Computational Characterization of Double Reduction in Autotetraploid Natural Populations." \emph{The Plant Journal} 105 (6): 1703–9. \doi{10.1111/tpj.15126}}
+#' }
+#'
 main_p2 <- function(nm,oiter=10){
 
   nl1 <- rep(0,5)
@@ -264,6 +270,12 @@ LL21  <- function(x,p,nl){
 #' @author Libo Jiang
 #'
 #' @export
+#'
+#' @references
+#' \itemize{
+#'   \item{Jiang, Libo, Xiangyu Ren, and Rongling Wu. 2021. "Computational Characterization of Double Reduction in Autotetraploid Natural Populations." \emph{The Plant Journal} 105 (6): 1703–9. \doi{10.1111/tpj.15126}}
+#' }
+#'
 sim_p <- function(para,n=500){
 
   p <- para[1]

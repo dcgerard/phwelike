@@ -146,6 +146,12 @@ EMM_p2 <- function(ELL_p,nl){
 #' main_p3(nm = nm)
 #'
 #' @export
+#'
+#' @references
+#' \itemize{
+#'   \item{Jiang, Libo, Xiangyu Ren, and Rongling Wu. 2021. "Computational Characterization of Double Reduction in Autotetraploid Natural Populations." \emph{The Plant Journal} 105 (6): 1703–9. \doi{10.1111/tpj.15126}}
+#' }
+#'
 main_p3 <- function(nm,oiter=10){
   nl1 <- rep(0,3)
   st <- table(nm)
@@ -221,6 +227,12 @@ LL3  <- function(x,p,nl){
 #' @author Libo Jiang
 #'
 #' @export
+#'
+#' @references
+#' \itemize{
+#'   \item{Jiang, Libo, Xiangyu Ren, and Rongling Wu. 2021. "Computational Characterization of Double Reduction in Autotetraploid Natural Populations." \emph{The Plant Journal} 105 (6): 1703–9. \doi{10.1111/tpj.15126}}
+#' }
+#'
 sim_p3 <- function(para,n=500){
 
   p <- para[1]

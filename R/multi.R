@@ -2,7 +2,6 @@
 ## Iterate over loci
 #################
 
-
 #' Fit \code{\link{main_p2}()} across many SNPs.
 #'
 #' Support is provided for parallelization through the future package.
@@ -37,6 +36,11 @@
 #'
 #' ## Shut down parallel workers
 #' future::plan("sequential")
+#'
+#' @references
+#' \itemize{
+#'   \item{Jiang, Libo, Xiangyu Ren, and Rongling Wu. 2021. "Computational Characterization of Double Reduction in Autotetraploid Natural Populations." \emph{The Plant Journal} 105 (6): 1703–9. \doi{10.1111/tpj.15126}}
+#' }
 #'
 main_multi <- function(nmat) {
   stopifnot(ncol(nmat) == 5)
