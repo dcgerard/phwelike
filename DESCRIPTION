@@ -9,7 +9,10 @@ Authors@R:
            comment = c(ORCID = "0000-0001-9450-5023")),
       person(given = "Libo",
            family = "Jiang",
-           role = c("aut"))
+           role = c("aut")),
+      person(given = "NSF DBI 2132247",
+             role = "fnd",
+             comment = "Supports David Gerard's work")
      )
 Description: Code from the paper of Jiang et. al. (2021) <doi:10.1111/tpj.15126>.
     I am putting it in package form to make it easy for me to use in
@@ -17,6 +20,7 @@ Description: Code from the paper of Jiang et. al. (2021) <doi:10.1111/tpj.15126>
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
+LazyDataCompression: gzip
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Depends: 

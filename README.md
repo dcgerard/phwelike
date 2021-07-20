@@ -24,6 +24,15 @@ The main functions are
 -   `sim_p3()`: Simulate heterozygous/homozygous at equilibrium in
     tetraploids.
 
+## Acknowledgments
+
+David Gerard’s work was supported by the National Science Foundation
+under Grant
+No. [2132247](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2132247).
+The opinions, findings, and conclusions or recommendations expressed are
+those of the author and do not necessarily reflect the views of the
+National Science Foundation.
+
 # References
 
 -   Jiang, Libo, Xiangyu Ren, and Rongling Wu. 2021. “Computational
