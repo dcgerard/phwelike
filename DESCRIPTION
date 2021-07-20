@@ -1,6 +1,6 @@
 Package: phwelike
-Title: Code from Jiang et al (2021) in package form
-Version: 0.0.0.9000
+Title: Code from Jiang, Ren, and Wu (2021) in Package Form
+Version: 1.0.0
 Authors@R:
     c(person(given = "David",
            family = "Gerard",
@@ -12,7 +12,13 @@ Authors@R:
            role = c("aut")),
       person(given = "NSF DBI 2132247",
              role = "fnd",
-             comment = "Supports David Gerard's work")
+             comment = "Supports David Gerard's work"),
+      person(given = "State Administration of Forestry of China 201404102",
+             role = "fnd",
+             comment = "Supports Libo Jiang's work"),
+      person(given = "National Natural Science Foundation of China 32070601",
+             role = "fnd",
+             comment = "Supports Libo Jiang's work")
      )
 Description: Code from the paper of Jiang et. al. (2021) <doi:10.1111/tpj.15126>.
     I am putting it in package form to make it easy for me to use in
