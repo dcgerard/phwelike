@@ -16,8 +16,11 @@ v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org
 This contains the code from Jiang et al (2021), in package form so it is
 easier for me to compare in simulations.
 
-To see the original repo, go to
-<https://github.com/LiboJiang/DoubleReduction>
+The original repo that contained the code from Jiang et al (2021) used
+to be located at <https://github.com/LiboJiang/DoubleReduction>, but
+that repo appears to either have been deleted or made private. This is
+strange, since the Data Availability Statement from Jiang et al (2021)
+links to that repo.
 
 The main functions are
 
