@@ -6,6 +6,7 @@
 <!-- badges: start -->
 
 [![NSF-2132247](https://img.shields.io/badge/NSF-2132247-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=2132247)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5531955.svg)](https://doi.org/10.5281/zenodo.5531955)
 [![Lifecycle:
 stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
 [![License: GPL
