@@ -22,7 +22,8 @@ Authors@R:
      )
 Description: Code from the paper of Jiang et. al. (2021) <doi:10.1111/tpj.15126>.
     I am putting it in package form to make it easy for me to use in
-    comparisons.
+    comparisons. I compare these methods to mine in
+    Gerard (2021) <doi:10.1101/2021.09.24.461731>.
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true

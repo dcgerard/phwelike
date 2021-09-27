@@ -14,7 +14,8 @@ v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org
 <!-- badges: end -->
 
 This contains the code from Jiang et al (2021), in package form so it is
-easier for me to compare in simulations.
+easier for me to compare in simulations. You can see the results of
+these comparisons in Gerard (2021).
 
 The original repo that contained the code from Jiang et al (2021) used
 to be located at <https://github.com/LiboJiang/DoubleReduction>, but
@@ -55,6 +56,10 @@ Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
 By contributing to this project, you agree to abide by its terms.
 
 # References
+
+-   Gerard D (2021). “Double reduction estimation and equilibrium tests
+    in natural autopolyploid populations.” *bioRxiv*.
+    [doi:10.1101/2021.09.24.461731](https://doi.org/10.1101/2021.09.24.461731).
 
 -   Jiang, Libo, Xiangyu Ren, and Rongling Wu. 2021. “Computational
     Characterization of Double Reduction in Autotetraploid Natural
