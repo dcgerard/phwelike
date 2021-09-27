@@ -32,8 +32,13 @@ The main functions are
     reduction and allele frequency in tetraploids using *just*
     heterozygous/homozygous.
 -   `sim_p()`: Simulate genotypes at equilibrium in tetraploids.
+    However, there is a mistake in Jiang et al (2021) and these
+    genotypes are not actually simulated at equilibrium. See
+    Gerard (2021) for details.
 -   `sim_p3()`: Simulate heterozygous/homozygous at equilibrium in
-    tetraploids.
+    tetraploids. However, there is a mistake in Jiang et al (2021) and
+    these are not actually simulated at equilibrium. See Gerard (2021)
+    for details.
 
 ## Acknowledgments
 

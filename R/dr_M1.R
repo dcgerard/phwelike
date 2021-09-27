@@ -262,6 +262,9 @@ LL21  <- function(x,p,nl){
 
 #' Simulate genotypes at equilibrium
 #'
+#' There is a mistake in Jiang et al (2021) and these genotypes are not
+#' actually simulated at equilibrium. See Gerard (2021) for details.
+#'
 #' @param para A vector of length 2. The first element is the
 #'    allele frequency, the second element is the double reduction
 #'    parameter.
@@ -274,6 +277,7 @@ LL21  <- function(x,p,nl){
 #' @references
 #' \itemize{
 #'   \item{Jiang, Libo, Xiangyu Ren, and Rongling Wu. 2021. "Computational Characterization of Double Reduction in Autotetraploid Natural Populations." \emph{The Plant Journal} 105 (6): 1703–9. \doi{10.1111/tpj.15126}}
+#'   \item{Gerard D. 2021. "Double reduction estimation and equilibrium tests in natural autopolyploid populations." \emph{bioRxiv}. \doi{10.1101/2021.09.24.461731}}
 #' }
 #'
 sim_p <- function(para,n=500){
