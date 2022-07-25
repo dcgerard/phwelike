@@ -16,7 +16,7 @@ v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org
 
 This contains the code from Jiang et al (2021), in package form so it is
 easier for me to compare in simulations. You can see the results of
-these comparisons in Gerard (2021).
+these comparisons in Gerard (2022).
 
 The original repo that contains the code from Jiang et al (2021) is
 located at <https://github.com/LiboJiang/DoubleReduction>.
@@ -32,10 +32,10 @@ The main functions are
 -   `sim_p()`: Simulate genotypes at equilibrium in tetraploids.
     However, there is a mistake in Jiang et al (2021) and these
     genotypes are not actually simulated at equilibrium. See
-    Gerard (2021) for details.
+    Gerard (2022) for details.
 -   `sim_p3()`: Simulate heterozygous/homozygous at equilibrium in
     tetraploids. However, there is a mistake in Jiang et al (2021) and
-    these are not actually simulated at equilibrium. See Gerard (2021)
+    these are not actually simulated at equilibrium. See Gerard (2022)
     for details.
 
 ## Acknowledgments
@@ -60,9 +60,9 @@ By contributing to this project, you agree to abide by its terms.
 
 # References
 
--   Gerard D (2021). “Double reduction estimation and equilibrium tests
-    in natural autopolyploid populations.” *bioRxiv*.
-    [doi:10.1101/2021.09.24.461731](https://doi.org/10.1101/2021.09.24.461731).
+-   Gerard D (2022). “Double reduction estimation and equilibrium tests
+    in natural autopolyploid populations.” *Biometrics* In press.
+    [doi:10.1111/biom.13722](https://doi.org/10.1111/biom.13722).
 
 -   Jiang, Libo, Xiangyu Ren, and Rongling Wu. 2021. “Computational
     Characterization of Double Reduction in Autotetraploid Natural

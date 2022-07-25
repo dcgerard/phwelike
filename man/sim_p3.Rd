@@ -19,12 +19,12 @@ have 0 = nullplex, 1 = heterozygous, 2 = quadriplex.
 }
 \description{
 There is a mistake in Jiang et al (2021) and these genotypes are not
-actually simulated at equilibrium. See Gerard (2021) for details.
+actually simulated at equilibrium. See Gerard (2022) for details.
 }
 \references{
 \itemize{
 \item{Jiang, Libo, Xiangyu Ren, and Rongling Wu. 2021. "Computational Characterization of Double Reduction in Autotetraploid Natural Populations." \emph{The Plant Journal} 105 (6): 1703–9. \doi{10.1111/tpj.15126}}
-\item{Gerard D. 2021. "Double reduction estimation and equilibrium tests in natural autopolyploid populations." \emph{bioRxiv}. \doi{10.1101/2021.09.24.461731}}
+\item{Gerard D 2022. "Double reduction estimation and equilibrium tests in natural autopolyploid populations." \emph{Biometrics} In press. \doi{10.1111/biom.13722}.}
 }
 }
 \author{
